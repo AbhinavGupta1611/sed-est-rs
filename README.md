@@ -8,6 +8,10 @@ Raw data and pre-trained models:
 
 This repository contains codes to estimate suspended sediment concentration by integrating sparse and intermittent remote sensing data and continuous hydrometeorological data. The sparse remote sensing data were interpolated using the mTAN algorithm, adapted from Shukla and Marlin (2021).
 
+The figure below illustrats the flow of information in the model:
+![Model Architecture](images/model_flow.png)
+
+
 ### Installation instructions
 #### 1. Clone the repo
      git clone https://github.com/AbhinavGupta1611/sed-est-rs.git
