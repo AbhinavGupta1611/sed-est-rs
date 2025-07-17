@@ -23,7 +23,14 @@ This repository contains codes to estimate suspended sediment concentration by i
 #### 3. Install required packages
     pip install -r requirements.txt
 
-    
-### References:
+### Usage
+To get started with these codes, a user can downlaod the raw data file 'dataLSTM_SR.txt' from Zenodo (https://doi.org/10.5281/zenodo.15882343)
+
+A user can use their own data to run these codes. In this case, however, the user has to make sure that either the raw data is contained in the same format as 'dataLSTM_SR.txt', or the modules of the code that load the data (load_data.py) are accordingly changed.
+
+The main scripts to train the models are 'lstm_train.py' and 'mTAN_LSTM_train.py'. To run these scripts, specify the name of the file containing the data and directory containing the file.
+Similarly, to use the trained model to predict SSC, the main scripts are 'predict_LSTM.py' and 'predict_mTAN_LSTM.py'.
+
+###  References:
 
 Shukla, S. N., & Marlin, B. M. (2021). Multi-time attention networks for irregularly sampled time series. arXiv preprint arXiv:2101.10318.
