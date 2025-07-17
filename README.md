@@ -31,6 +31,11 @@ A user can use their own data to run these codes. In this case, however, the use
 The main scripts to train the models are 'lstm_train.py' and 'mTAN_LSTM_train.py'. To run these scripts, specify the name of the file containing the data and directory containing the file.
 Similarly, to use the trained model to predict SSC, the main scripts are 'predict_LSTM.py' and 'predict_mTAN_LSTM.py'.
 
+### Contact information:
+
+Abhinav Gupta  - abhigupta.1611@gmail.com
+
+
 ###  References:
 
 Shukla, S. N., & Marlin, B. M. (2021). Multi-time attention networks for irregularly sampled time series. arXiv preprint arXiv:2101.10318.
