@@ -1,2 +1,13 @@
 # sed-est-rs
-mTAN-LSTM to integrate sparse remote sensing data and continous hydrometerological data
+mTAN-LSTM algorithm to integrate sparse remote sensing data and continous hydrometerological data
+
+Raw data and pre-trained models: 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15882343.svg)](https://doi.org/10.5281/zenodo.15882343)
+
+### Overview
+
+This repository contains codes to estimate suspended sediment concentration by integrating sparse and intermittent remote sensing data and continuous hydrometerological data. The sparse remote sensing data were interpolated using the mTAN algorithm, adapted from Shukla and Marlin (2021). 
+
+### References:
+
+Shukla, S. N., & Marlin, B. M. (2021). Multi-time attention networks for irregularly sampled time series. arXiv preprint arXiv:2101.10318.
