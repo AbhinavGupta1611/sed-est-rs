@@ -1,12 +1,12 @@
 # sed-est-rs
-mTAN-LSTM algorithm to integrate sparse remote sensing data and continous hydrometerological data
+mTAN-LSTM algorithm to integrate sparse remote sensing data and continuous hydrometeorological data
 
 Raw data and pre-trained models: 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15882343.svg)](https://doi.org/10.5281/zenodo.15882343)
 
 ### Overview
 
-This repository contains codes to estimate suspended sediment concentration by integrating sparse and intermittent remote sensing data and continuous hydrometerological data. The sparse remote sensing data were interpolated using the mTAN algorithm, adapted from Shukla and Marlin (2021).
+This repository contains codes to estimate suspended sediment concentration by integrating sparse and intermittent remote sensing data and continuous hydrometeorological data. The sparse remote sensing data were interpolated using the mTAN algorithm, adapted from Shukla and Marlin (2021).
 
 ### Installation instructions
 #### 1. Clone the repo
@@ -34,6 +34,9 @@ Similarly, to use the trained model to predict SSC, the main scripts are 'predic
 ### Contact information:
 
 Abhinav Gupta  - abhigupta.1611@gmail.com
+
+![Python](https://img.shields.io/badge/python-3.8+-blue)
+![License](https://img.shields.io/github/license/AbhinavGupta1611/sed-est-rs)
 
 
 ###  References:
