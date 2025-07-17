@@ -6,8 +6,24 @@ Raw data and pre-trained models:
 
 ### Overview
 
-This repository contains codes to estimate suspended sediment concentration by integrating sparse and intermittent remote sensing data and continuous hydrometerological data. The sparse remote sensing data were interpolated using the mTAN algorithm, adapted from Shukla and Marlin (2021). 
+This repository contains codes to estimate suspended sediment concentration by integrating sparse and intermittent remote sensing data and continuous hydrometerological data. The sparse remote sensing data were interpolated using the mTAN algorithm, adapted from Shukla and Marlin (2021).
 
+### Installation instructions
+#### 1. Clone the repo
+     git clone https://github.com/AbhinavGupta1611/sed-est-rs.git
+     cd sed-est-rs
+
+#### 2. Create a virtual environment
+    python -m venv env
+    # Windows
+    env\Scripts\activate
+    # macOS/Linux
+    source env/bin/activate
+
+#### 3. Install required packages
+    pip install -r requirements.txt
+
+    
 ### References:
 
 Shukla, S. N., & Marlin, B. M. (2021). Multi-time attention networks for irregularly sampled time series. arXiv preprint arXiv:2101.10318.
