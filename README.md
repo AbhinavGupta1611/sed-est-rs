@@ -31,6 +31,8 @@ A user can use their own data to run these codes. In this case, however, the use
 The main scripts to train the models are 'lstm_train.py' and 'mTAN_LSTM_train.py'. To run these scripts, specify the name of the file containing the data and directory containing the file.
 Similarly, to use the trained model to predict SSC, the main scripts are 'predict_LSTM.py' and 'predict_mTAN_LSTM.py'.
 
+Note that the script 'lstm_train.py' will train a model without using remote sensing data. 
+
 ### Contact information:
 
 Abhinav Gupta  - abhigupta.1611@gmail.com
